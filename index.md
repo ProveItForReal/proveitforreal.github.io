@@ -55,6 +55,9 @@ types, we will hopefully attract progressively larger corporations.
   automated running of studies.
 * [GLaDyS](https://github.com/ProveItForReal/GLaDyS) - High security questionaire administration.
 
+Useful links:
+* LessWrong [announce post](http://lesswrong.com/r/discussion/lw/l4q/fixing_moral_hazards_in_business_science/)
+
 ## Helping out
 
 We are a small project! Your assistance will be noticed.
