@@ -1,0 +1,12 @@
+# Site settings
+title: Prove It For Real
+email: david@proveitforreal.com
+description: > # this means to ignore newlines until "baseurl:"
+  Rigorously demonstrated product claims.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.proveitforreal.org" # the base hostname & protocol for your site
+twitter_username: proveitforreal
+github_username:  proveitforreal
+
+# Build settings
+markdown: kramdown
