@@ -67,4 +67,4 @@ We are a small project! Your assistance will be noticed.
 * Questions
 * Participant Selection & Screening
 
-Or for more general assistance, please join our discussion forum.
+Or for more general assistance, please join our [discussion forum](http://discuss.proveitforreal.org).
