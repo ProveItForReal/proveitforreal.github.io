@@ -95,5 +95,26 @@ p {
 .footer {
   margin-top: 20px;
 }
+.nav-link {
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+}
+.nav-link:hover {
+  margin-bottom: 13px;
+  border-bottom: 2px solid #a0f;
+}
+.nav-link.active {
+  color: #111;
+  font-weight: 700;
+}
+.page-title {
+  color: #333;
+  font-size: 41px;
+  letter-spacing: 1px;
+}
+@media (max-width: 991px) {
+}
+@media (max-width: 767px) {
+}
 @media (max-width: 479px) {
 }

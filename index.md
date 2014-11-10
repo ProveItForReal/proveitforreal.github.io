@@ -2,6 +2,7 @@
 title: Prove It For Real
 subhead: Rigorous testing, automated for startups.
 permalink: /
+layout: home
 ---
 
 # Vision
