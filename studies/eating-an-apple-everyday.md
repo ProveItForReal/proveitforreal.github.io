@@ -1,7 +1,7 @@
 ---
 layout: study
 title: Eating an Apple Everyday
-permalink: /studies/apple-a-day/
+permalink: /studies/eating-an-apple-everyday/
 ---
 
 <h3>Summary of findings</h3>
