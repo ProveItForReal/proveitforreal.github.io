@@ -1,13 +1,21 @@
 ---
 title: Prove It For Real
-subhead: Rigorous testing, automated for startups.
+subhead: Fully automated rigorous experiments.
 permalink: /
 layout: home
 ---
 
 # Vision
 
-Truth isn't relative. Many “scientific facts” are. Through better tools we hope to fix this.
+The scientific method implicitly trusts experimentors. For many
+subjects this is a fine assumption, but for morally hazardous and
+politicized topics, this assumption leaves science broken.
+
+We are building a suite of tools that will allow experiment designs to
+be defined and debated in advance, and the data to be collected and
+analyzed automatically. Use of this protocol will directly address the
+most common methological errors in science today, and pave the way for
+evidence based products.
 
 # Current Goals
 
