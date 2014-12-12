@@ -33,32 +33,36 @@ Major goals:
 * A question format that's easy to work with / automate
 * A final data format that's easy to work with / automate
 
+Both for security and scaling, data collection will happen using a
+per-test webapplication.
+
 Every day, the participants will receive an SMS or email message with
 a link to daily questions. The data collection link will be active for
-only 24 hours, to prevent procrastination and loss of data to human
-memory.
+only 24 hours.
 
-Questions will have a [constrained
-format][https://github.com/ProveItForReal/GLaDys/blob/master/README.md]
-to ease automated analysis, and minimize the amount of personal
-information accidentially disclosed.
+Questions will have a constrained format to ease automated analysis,
+and minimize the amount of personal information accidentially
+disclosed.
 
-Which are handled by the current version of
+The above goals are implmeneted by the current version of
 [GLaDys](https://github.com/ProveItForReal/GLaDys). If you have
 questions about the specifics, see the
 [README](https://github.com/ProveItForReal/GLaDys/blob/master/README.md)
-or ask a question in the [discussion forum](http://discuss.proveitforreal.org/).
-
-Daily SMS/emails with a one time data collection URL. This is
-implemented, see [the code](https://github.com/ProveItForReal/GLaDys)
-on github. [Details](/protocols/data_collection).
+or ask a question in the [discussion
+forum](http://discuss.proveitforreal.org/).
 
 # Data Analysis
 
-Simple methods for now. [Details](/protocols/data_analysis).
+Initialy we will support only very simple aggregate analysis. As
+required, new functions will be added to support more exotic designs.
 
 # Final data display
 
-To provide an audit trail, each study will receive hosting here at
-proveitforreal.org. We'll want to display aggregate results, along
-with per-question trendlines and other more detailed reports. [Details](/protocols/final_display).
+Each study performed will receive hosting here at ProveItForReal.org
+Since ProveItForReal.org is hosted on [github
+pages](https://github.com/ProveItForReal/ProveItForReal.github.io),
+this will provide a git based audit trail if anyone tries to modify
+the results of a particular study.
+
+We'll want to display aggregate results, along with per-question
+trendlines and other more detailed reports.
