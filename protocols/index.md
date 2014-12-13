@@ -54,7 +54,7 @@ forum](http://discuss.proveitforreal.org/).
 # Data Analysis
 
 Initialy we will support only very simple aggregate analysis. As
-required, new functions will be added to support more exotic designs.
+required, new functions will be added to support more complex designs.
 
 # Final data display
 
@@ -66,3 +66,5 @@ the results of a particular study.
 
 We'll want to display aggregate results, along with per-question
 trendlines and other more detailed reports.
+
+You can see an example study [here](/studies/eating-an-apple-everyday/).

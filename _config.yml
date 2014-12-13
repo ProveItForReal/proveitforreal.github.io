@@ -13,6 +13,8 @@ markdown: kramdown
 
 exclude:
   - webflow.rb
+  - tmp
+  - TODO.txt
 
 defaults:
   -

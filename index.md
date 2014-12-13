@@ -25,6 +25,6 @@ evidence based products.
 
 # How You Can Help
 
-* Join the discussion
-* Help with protocol design
-* Clarify the specifications
+* Join the [discussion](http://discuss.proveitforreal.org)
+* Help with [protocol design / specifications](/protocols)
+* Help with the study format [example here](/studies/eating-an-apple-everyday/).
