@@ -6,7 +6,10 @@ permalink: /studies/eating-an-apple-everyday/
 
 <h3>Summary of findings</h3>
 
-Eating an apple every day is quite likely to improve your overall awesomeness (p value of 98%).
+For the questions we asked over a one week timespan:
+
+* Eating an apple everyday is quite likely to improve your overall awesomeness (p value 98%).
+* Eating an apple everyday is unlikely to change your overall health (p value 98%).
 
 <h3>Methods</h3>
 
@@ -31,7 +34,8 @@ Every day participants were asked:
 
 Below is the average of each group's response.
 
-<canvas id="awesomness-chart" height="400px" width="980px"></canvas>
+<canvas id="awesomness-chart" height="150px" width="980px"></canvas>
+<div id="awesomness-legend"></div>
 <script>
   var ctx = document.getElementById("awesomness-chart").getContext("2d");
 
@@ -65,10 +69,12 @@ Below is the average of each group's response.
     scaleOverride: true,
     scaleSteps: 6,
     scaleStepWidth: 1,
-    scaleStartValue: 1
+    scaleStartValue: 1,
+
   };
 
   var awesomenessChart = new Chart(ctx).Line(data, options);
+  legend(document.getElementById("awesomness-legend"), data);
 </script>
 
 
@@ -80,7 +86,8 @@ Every day participants were asked:
 
 Below is the average of each group's response.
 
-<canvas id="health-chart" height="400px" width="980px"></canvas>
+<canvas id="health-chart" height="150px" width="980px"></canvas>
+<div id="health-legend"></div>
 
 <script>
   var ctx = document.getElementById("health-chart").getContext("2d");
@@ -89,6 +96,7 @@ Below is the average of each group's response.
   data.datasets[1].data = [4.42, 4.36, 4.07, 3.29, 3.29, 4, 4.21];
 
   var healthChart = new Chart(ctx).Line(data, options);
+  legend(document.getElementById("health-legend"), data);
 </script>
 
 
@@ -102,3 +110,7 @@ overall awesomness.
 **If you have a specific medical condition leading to your interest in
 awesomeness, please discuss these findings to your doctor before
 taking action.**
+
+Want your own study? Visit
+[ProveItForReal.org](http://www.ProveItForReal.org). They're both
+inexpensive and rigorous.
